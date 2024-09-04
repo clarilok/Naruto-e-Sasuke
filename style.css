@@ -1,0 +1,33 @@
+body {
+    background-color: #c15317;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #1215a7;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
